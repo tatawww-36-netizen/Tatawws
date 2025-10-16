@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Bogor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* Background langit biru dengan awan (sama untuk semua) */
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background: inherit; /* Sama dengan background body */
+            padding: 80px 20px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* teks tetap jelas */
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: white;
+        }
+        header p {
+            font-size: 1.2em;
+            color: white;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+        .place {
+            background-color: rgba(255, 255, 255, 0.85); /* semi-transparan agar tetap terlihat background */
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .place h2 {
+            color: #2e8b57;
+            margin-bottom: 10px;
+        }
+        .place p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .place img, .place video {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .place video {
+            margin-top: 10px;
+            object-fit: cover;
+        }
+        footer {
+            background: inherit; /* Sama dengan background body */
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            border-top: 2px solid rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wisata Bogor</h1>
+        <p>Temukan keindahan kota hujan!</p>
+    </header>
+
+    <div class="container">
+        <!-- Tempat 1 -->
+        <div class="place">
+            <h2>1. Botani Square</h2>
+            <p>Botani Square adalah pusat perbelanjaan dan rekreasi yang populer di Bogor, menawarkan berbagai pilihan hiburan dan kuliner.</p>
+            <img src="BOTANI.jpg" alt="Botani Square Bogor">
+            <video controls>
+                <source src="vid.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </div>
+
+        <!-- Tempat 2 -->
+        <div class="place">
+            <h2>2. Taman Safari Bogor</h2>
+            <p>Taman Safari Bogor adalah destinasi wisata keluarga dengan berbagai hewan dan atraksi interaktif.</p>
+            <img src="taman.jpg" alt="Taman Safari Bogor">
+            <video controls>
+                <source src="vidsafari.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </div>
+
+        <!-- Tempat 3 -->
+        <div class="place">
+            <h2>3. Puncak Bogor</h2>
+            <p>Puncak Bogor menawarkan pemandangan pegunungan dan udara sejuk, cocok untuk berlibur dan berfoto.</p>
+            <img src="bukik.jpg" alt="Puncak Bogor">
+            <video controls>
+                <source src="vidbukit.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </div>
+
+        <!-- Tempat 4 -->
+        <div class="place">
+            <h2>4. Istana Bogor</h2>
+            <p>Istana Bogor adalah salah satu istana kepresidenan Indonesia yang memiliki taman luas dan keindahan arsitektur klasik.</p>
+            <img src="istana.jpg" alt="Istana Bogor">
+            <video controls>
+                <source src="istana.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </div>
+
+        <!-- Tempat 5 -->
+        <div class="place">
+            <h2>5. Museum Nasional Bogor</h2>
+            <p>Museum Nasional Bogor menampilkan berbagai koleksi sejarah dan budaya Indonesia, menarik untuk edukasi keluarga dan pelajar.</p>
+            <img src="fotto.jpg" alt="Museum Bogor">
+            <video controls>
+                <source src="vidmes.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Wisata Bogor. All Rights Reserved.
+    </footer>
+</body>
+</html>
